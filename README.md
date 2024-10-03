@@ -14,44 +14,57 @@ This project is a web-based quiz application built using Django. It allows users
 Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
+   Create a free directory:
    ```bash
-   git clone <REPOSITORY_URL>
+   mkdir my_project
    ```
-
-2. **Navigate to the project directory:**
+   
    ```bash
-   cd Django_quiz-posttest-main
+   cd my_project
    ```
-
-3. **Create a virtual environment:**
+   
+   If you're working with a repository, clone it using the following command:
+   
+   ```bash
+   git clone <repository_url>
+   ```
+   
+2. **Create a virtual environment:**
    ```bash
    python -m venv env
    ```
-
-4. **Activate the virtual environment:**
+   
+   Open emulator, example Visual Studio Code:
+   
    ```bash
-   .env\Scripts\activate
+   code .
    ```
-
-5. **Install dependencies:**
+   
+   Open terminal and run activate Virtual Environment:
+   
+   ```bash
+   .\venv\Scripts\activate
+   ```
+   
+   ```bash
+   cd Django_quiz-posttest
+   ```
+   
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-
-6. **Migrate the database:**
-   ```bash
-   python manage.py migrate
-   ```
-
-7. **Create a superuser:**
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-8. **Run the server:**
+   
+4. **Run the server:**
    ```bash
    python manage.py runserver
    ```
+   
+## Access Admin Panel
+```bash
+Username : umar290700
+Password : Umarganteng1
+```
 
 # Deployment
 vercel : https://django-quiz-posttest.vercel.app/quiz/
