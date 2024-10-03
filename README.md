@@ -13,54 +13,57 @@ This project is a web-based quiz application built using Django. It allows users
 
 Follow these steps to set up the project locally:
 
-1. **Clone the repository:**
-   Create a free directory:
-   ```bash
-   mkdir my_project
-   ```
-   
-   ```bash
-   cd my_project
-   ```
-   
-   If you're working with a repository, clone it using the following command:
-   
-   ```bash
-   git clone <repository_url>
-   ```
-   
-2. **Create a virtual environment:**
-   ```bash
-   python -m venv env
-   ```
-   
-   Open emulator, example Visual Studio Code:
-   
-   ```bash
-   code .
-   ```
-   
-   Open terminal and run activate Virtual Environment:
-   
-   ```bash
-   .\venv\Scripts\activate
-   ```
-   
-   ```bash
-   cd Django_quiz-posttest
-   ```
-   
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-4. **Run the server:**
-   ```bash
-   python manage.py runserver
-   ```
-   
+### Step 1: Clone the Repository
+
+Create a free directory:
+```bash
+mkdir my_project
+```
+
+```bash
+cd my_project
+```
+
+If you're working with a repository, clone it using the following command:
+
+```bash
+git clone <repository_url>
+```
+
+### Step 2: Create a Virtual Environment
+```bash
+python -m venv env
+```
+
+Open emulator, example Visual Studio Code:
+
+```bash
+code .
+```
+
+Open terminal and run activate Virtual Environment:
+
+```bash
+.\venv\Scripts\activate
+```
+
+```bash
+cd Django_quiz-posttest
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Run the Development Server
+```bash
+python manage.py runserver
+```
+
 ## Access Admin Panel
+
 ```bash
 Username : umar290700
 Password : Umarganteng1
