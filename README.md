@@ -30,7 +30,7 @@ Follow these steps to set up the project locally:
 
 4. **Activate the virtual environment:**
    ```bash
-   env\Scripts\activate
+   .env\Scripts\activate
    ```
 
 5. **Install dependencies:**
